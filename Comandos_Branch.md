@@ -25,3 +25,31 @@ Git stash list
 git stash apply + (numero da stash) (lembrando que sempre tem que dar git stash pra trocar entre elas)
 
 git stash show -p + (numero da stash) (Mostra exatamente o que foi modificado na stash)
+
+git stash clear
+
+git stash drop + (n da stash)
+
+# Comando p/ uma TAG
+
+git tag -a (nome da tag) -m (msg)  (ex: git tag -a v1.0 -m "primeira versao)
+
+git tag (ver lista de tags)
+
+git checkout + (nome da tag p/ alterar entre elas)
+
+# Comando p/ Enviar TAG para Repositório
+
+git push origin + (nome da tag)
+
+git push origin -tags (envia todas das tags salvas)
+
+# Comando p/ Exibir Diferenças entre Branches
+
+git diff
+
+git diff head:a.txt a.txt (Comparando arquivo da Main c/ arquivo da branch específico)
+
+# Comando p/ LOG Resumido do Projeto
+
+git shortlog (mostra os commits feitos)
