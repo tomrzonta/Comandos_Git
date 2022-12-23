@@ -3,8 +3,8 @@
 
 # COMANDO PARA ESCREVER EM NEGRITO OU ITÁLICO
 
-*.*NEGRITO**
-_._ITALICO__
+Usar dois** No início e fim do texto
+Usar dois __ no início e fim do texto
 
 # COMANDO PARA CRIAR LISTA
 “ * “ + (LISTA DESEJADA)
